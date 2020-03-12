@@ -40,5 +40,13 @@ print (nkb_pmf)
 5    0.052376
 dtype: float64
 
+
+#plotting actual and biased  PMF
+import matplotlib.pyplot as plt 
+fig, ax = plt.subplots(figsize=(12, 8))
+ax.step(x=num_kids_pmf.index, y=num_kids_pmf, where='post', label='actual')
+ax.step(x=num_kids_pmf.index, y=nkb_pmf, where='post', label='biased')
+plt.legend()
+plt.show()
 ```
 ![plot](images/ex2plot.png)
