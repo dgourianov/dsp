@@ -4,7 +4,7 @@ Using the variable totalwgt_lb, investigate whether first babies are lighter or 
 
 Compute Cohen’s effect size to quantify the difference between the groups. How does it compare to the difference in pregnancy length?
 
-```python
+```
 def CohenEffectSize(group1, group2):
     """Computes Cohen's effect size for two groups.
     
