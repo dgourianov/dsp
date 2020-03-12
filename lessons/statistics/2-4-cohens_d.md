@@ -27,8 +27,9 @@ def CohenEffectSize(group1, group2):
     -0.088672927072602
     CohenEffectSize(firsts['prglngth'], others['prglngth'])
     0.028879044654449883
-    **Cohen's effect size for both Total weight and Pregnancy length is small** 
     ```
+    **Cohen's effect size for both, Total weight and Pregnancy length, is small** 
+    
 
 
 
