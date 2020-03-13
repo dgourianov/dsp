@@ -27,7 +27,6 @@ plt.plot(age, perc_weight_80, label = '80th percentile')
 plt.xlabel("Mother's age (years)")
 plt.ylabel('Birth weight (lbs)')
 plt.legend()
-
 ```
 ![](images/ex7_graph.png)
 
