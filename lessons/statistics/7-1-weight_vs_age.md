@@ -13,10 +13,10 @@ sns.scatterplot(x=live['agepreg'], y=live ['totalwgt_lb'])
 plt.ylabel('Total weight')
 plt.xlabel( 'Age' )
 plt.show()
-
+```
 ![plot](images/ex7_scatter.png)
 
 
-```
+
 
 
