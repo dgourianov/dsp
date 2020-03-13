@@ -16,7 +16,7 @@ plt.show()
 ```
 ![plot](images/ex7_scatter.png)
 
-```
+```python
 bins = np.arange(14,40, 2)
 indices = np.digitize(live.agepreg, bins)
 age = live.groupby(indices)['agepreg'].mean()
