@@ -28,7 +28,7 @@ plt.xlabel("Mother's age (years)")
 plt.ylabel('Birth weight (lbs)')
 plt.legend()
 ```
-![](images/ex7_graph.png)
+![plot](images/ex7_graph.png)
 
 
 
