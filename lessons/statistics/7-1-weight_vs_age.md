@@ -30,7 +30,8 @@ plt.legend()
 ```
 ![plot](images/ex7_graph.png)
 
-'''python
+```python
+
 live[['agepreg', 'totalwgt_lb']].corr(method='spearman')
 0.09461
 
