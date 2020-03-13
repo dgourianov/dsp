@@ -16,7 +16,20 @@ plt.show()
 ```
 ![plot](images/ex7_scatter.png)
 
+```
+bins = np.arange(14,40, 2)
+indices = np.digitize(live.agepreg, bins)
+age = live.groupby(indices)['agepreg'].mean()
+perc_weight_50=live.groupby(indices)['totalwgt_lb'].quantile(0.5)
+plt.plot(age, perc_weight_50, label = '50th percentile')
+perc_weight_80=live.groupby(indices)['totalwgt_lb'].quantile(0.8)
+plt.plot(age, perc_weight_80, label = '80th percentile')
+plt.xlabel("Mother's age (years)")
+plt.ylabel('Birth weight (lbs)')
+plt.legend()
 
+```
+![](images/ex7_graph.png)
 
 
 
