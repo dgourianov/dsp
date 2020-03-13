@@ -3,6 +3,8 @@
 ```python
 
 import pandas as pd
+
+
 sam_pd=pd.DataFrame(sample)
 print('mean:', sam_pd.mean(),'\n','median:',  sam_pd.median(),'\n','skewness', sam_pd.skew())
 
@@ -16,7 +18,7 @@ dtype: float64
 sam_pd.shape
 (122458, 1)
 
-
+#calculating what fraction of the households have income below mean
 len(sam_pd[sam_pd.iloc[:,0]<74278])/122458
 0.660005879566872
 
